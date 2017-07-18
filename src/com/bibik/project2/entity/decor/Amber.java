@@ -1,4 +1,4 @@
-package com.bibik.project2.entity;
+package com.bibik.project2.entity.decor;
 
 public class Amber extends Decor{
 	private EnumAmberClass amberClass;

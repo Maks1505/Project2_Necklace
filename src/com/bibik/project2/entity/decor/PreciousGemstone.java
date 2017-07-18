@@ -1,4 +1,4 @@
-package com.bibik.project2.entity;
+package com.bibik.project2.entity.decor;
 
 public class PreciousGemstone extends Decor{
 	private EnumGemstone name;

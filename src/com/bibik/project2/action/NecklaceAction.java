@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-import com.bibik.project2.entity.Decor;
-import com.bibik.project2.entity.Necklace;
-import com.bibik.project2.entity.PreciousGemstone;
+import com.bibik.project2.entity.decor.Decor;
+import com.bibik.project2.entity.decor.PreciousGemstone;
+import com.bibik.project2.entity.necklace.Necklace;
 
 public class NecklaceAction {
 	public static void sortDecorByCost(Necklace neck){

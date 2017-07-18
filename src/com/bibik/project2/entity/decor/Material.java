@@ -1,4 +1,4 @@
-package com.bibik.project2.entity;
+package com.bibik.project2.entity.decor;
 
 public class Material extends Decor {
 	private EnumMaterial name;

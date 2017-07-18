@@ -1,9 +1,11 @@
-package com.bibik.project2.entity;
+package com.bibik.project2.entity.necklace;
 
 import java.util.ArrayList;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import com.bibik.project2.entity.decor.Decor;
 
 public class Necklace {
 	private final static Logger LOGGER = LogManager.getLogger();

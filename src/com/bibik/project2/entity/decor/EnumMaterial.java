@@ -1,4 +1,4 @@
-package com.bibik.project2.entity;
+package com.bibik.project2.entity.decor;
 
 public enum EnumMaterial {
 	LEATHER(10), WOOD(5);

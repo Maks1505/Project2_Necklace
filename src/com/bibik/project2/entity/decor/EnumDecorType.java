@@ -1,4 +1,4 @@
-package com.bibik.project2.entity;
+package com.bibik.project2.entity.decor;
 
 import com.bibik.project2.exception.DecorTypeException;
 

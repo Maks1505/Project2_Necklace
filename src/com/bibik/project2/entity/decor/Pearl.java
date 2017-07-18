@@ -1,4 +1,4 @@
-package com.bibik.project2.entity;
+package com.bibik.project2.entity.decor;
 
 public class Pearl extends Decor{
 	private EnumPearlClass pearlClass;

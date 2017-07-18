@@ -2,11 +2,11 @@ package com.bibik.project2.validation;
 
 import org.apache.logging.log4j.LogManager;
 
-import com.bibik.project2.entity.EnumAmberClass;
-import com.bibik.project2.entity.EnumDecorType;
-import com.bibik.project2.entity.EnumGemstone;
-import com.bibik.project2.entity.EnumMaterial;
-import com.bibik.project2.entity.EnumPearlClass;
+import com.bibik.project2.entity.decor.EnumAmberClass;
+import com.bibik.project2.entity.decor.EnumDecorType;
+import com.bibik.project2.entity.decor.EnumGemstone;
+import com.bibik.project2.entity.decor.EnumMaterial;
+import com.bibik.project2.entity.decor.EnumPearlClass;
 import com.bibik.project2.exception.DecorTypeException;
 
 import org.apache.logging.log4j.Logger;

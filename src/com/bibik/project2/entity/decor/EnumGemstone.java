@@ -1,4 +1,4 @@
-package com.bibik.project2.entity;
+package com.bibik.project2.entity.decor;
 
 public enum EnumGemstone {
 	RUBY(17), DIAMOND(20), EMERALD(15), SAPPHIRE(13), TOPAZ(13);

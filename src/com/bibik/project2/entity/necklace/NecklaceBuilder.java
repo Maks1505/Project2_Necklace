@@ -1,10 +1,11 @@
-package com.bibik.project2.entity;
+package com.bibik.project2.entity.necklace;
 
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.bibik.project2.entity.decor.DecorFactory;
 import com.bibik.project2.exception.DecorFactoryException;
 import com.bibik.project2.lineparser.LineParser;
 import com.bibik.project2.validation.DataValidation;

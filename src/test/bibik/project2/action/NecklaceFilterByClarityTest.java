@@ -8,9 +8,9 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import com.bibik.project2.action.NecklaceAction;
-import com.bibik.project2.entity.Decor;
-import com.bibik.project2.entity.Necklace;
-import com.bibik.project2.entity.NecklaceBuilder;
+import com.bibik.project2.entity.decor.Decor;
+import com.bibik.project2.entity.necklace.Necklace;
+import com.bibik.project2.entity.necklace.NecklaceBuilder;
 import com.bibik.project2.exception.FileReadException;
 import com.bibik.project2.readfile.ReadFile;
 
