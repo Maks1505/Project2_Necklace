@@ -1,6 +1,6 @@
 package com.bibik.project2.entity;
 
-public class PreciousGemstone extends Gemstone{
+public class PreciousGemstone extends Decor{
 	private EnumGemstone name;
 	private double mass;
 	private boolean syntheticGem;
@@ -64,4 +64,37 @@ public class PreciousGemstone extends Gemstone{
 				+ syntheticGem + ", count=" + count + "]";
 	}
 
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = super.hashCode();
+		long temp;
+		temp = Double.doubleToLongBits(mass);
+		result = prime * result + (int) (temp ^ (temp >>> 32));
+		result = prime * result + ((name == null) ? 0 : name.hashCode());
+		result = prime * result + (syntheticGem ? 1231 : 1237);
+		return result;
+	}
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (!super.equals(obj))
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		PreciousGemstone other = (PreciousGemstone) obj;
+		if (Double.doubleToLongBits(mass) != Double.doubleToLongBits(other.mass))
+			return false;
+		if (name != other.name)
+			return false;
+		if (syntheticGem != other.syntheticGem)
+			return false;
+		return true;
+	}
+	
+	
 }

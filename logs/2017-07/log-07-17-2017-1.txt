@@ -1,0 +1,37 @@
+2017-07-17 15:23:12 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:24:34 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:25:23 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:26:01 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:28:14 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:29:56 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:30:22 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:30:36 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:32:10 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:32:33 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:32:42 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:32:47 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:32:51 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:33:07 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:34:44 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:37:19 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:37:40 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:39:00 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:40:00 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:41:39 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:41:39 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:42:19 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:43:12 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:46:06 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:46:34 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:47:29 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:47:29 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:49:03 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:49:03 [main] WARN  com.bibik.project2.runner.Runner - Line has incorrect data: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
+2017-07-17 15:49:03 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:49:30 [main] WARN  com.bibik.project2.validation.DataValidation - com.bibik.project2.exception.DataValidationException: not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 15:49:30 [main] WARN  com.bibik.project2.runner.Runner - Line has incorrect data: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
+2017-07-17 16:42:27 [main] WARN  com.bibik.project2.validation.DataValidation - Not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 16:42:27 [main] WARN  com.bibik.project2.validation.DataValidation - java.lang.NullPointerException
+2017-07-17 16:42:27 [main] WARN  com.bibik.project2.runner.Runner - Line has incorrect data: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
+2017-07-17 16:44:04 [main] WARN  com.bibik.project2.validation.DataValidation - Not valid Decor Type: PRECIOUS_GEMSTONE1
+2017-07-17 16:44:04 [main] WARN  com.bibik.project2.runner.Runner - Line has incorrect data: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;

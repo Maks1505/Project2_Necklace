@@ -1,6 +1,6 @@
 package com.bibik.project2.entity;
 
-public class Pearl extends Gemstone{
+public class Pearl extends Decor{
 	private EnumPearlClass pearlClass;
 
 	public Pearl(EnumPearlClass pearlClass, int count) {

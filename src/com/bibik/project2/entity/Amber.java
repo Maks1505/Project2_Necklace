@@ -1,6 +1,6 @@
 package com.bibik.project2.entity;
 
-public class Amber extends Gemstone{
+public class Amber extends Decor{
 	private EnumAmberClass amberClass;
 	private int age;
 

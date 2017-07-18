@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 
 import com.bibik.project2.entity.Decor;
 import com.bibik.project2.entity.Necklace;
+import com.bibik.project2.entity.PreciousGemstone;
 
 public class NecklaceAction {
 	public static void sortDecorByCost(Necklace neck){
@@ -22,6 +23,23 @@ public class NecklaceAction {
 	public static List<Decor> filterDecorByClarity(Necklace neck, int lowBoundary, int highBoundary){
 		Predicate<Decor> pred = o1 -> (o1.getClarity() >= lowBoundary && o1.getClarity() <= highBoundary) ? true : false;
 		return neck.getDecorElements().stream().filter(pred).collect(Collectors.toList());
-
+	}
+	
+	public static double calculateNeckalceCost(Necklace neck) {
+		double cost = 0;
+		for (Decor d : neck.getDecorElements()) {
+			cost += d.calculateCost();
+		}
+		return cost;
+	}
+	
+	public static double calculateGemMass(Necklace neck) {
+		double mass = 0;
+		for (Decor d : neck.getDecorElements()) {
+			if (d instanceof PreciousGemstone) {
+				mass += ((PreciousGemstone) d).calculateTotalMass();
+			}
+		}
+		return mass;
 	}
 }

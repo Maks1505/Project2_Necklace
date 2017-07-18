@@ -19,22 +19,22 @@ public class Necklace {
 		return decorElements;
 	}
 	
-	public double calculateGemMass() {
-		double mass = 0;
-		for (Decor d : decorElements) {
-			if (d instanceof PreciousGemstone) {
-				mass += ((PreciousGemstone) d).calculateTotalMass();
-			}
-		}
-		return mass;
-	}
+//	public double calculateGemMass() {
+//		double mass = 0;
+//		for (Decor d : decorElements) {
+//			if (d instanceof PreciousGemstone) {
+//				mass += ((PreciousGemstone) d).calculateTotalMass();
+//			}
+//		}
+//		return mass;
+//	}
 	
-	public double calculateNeckalceCost() {
-		double cost = 0;
-		for (Decor d : decorElements) {
-			cost += d.calculateCost();
-		}
-		return cost;
-	}
+//	public double calculateNeckalceCost() {
+//		double cost = 0;
+//		for (Decor d : decorElements) {
+//			cost += d.calculateCost();
+//		}
+//		return cost;
+//	}
 	
 }
