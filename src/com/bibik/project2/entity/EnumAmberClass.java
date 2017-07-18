@@ -1,7 +1,7 @@
 package com.bibik.project2.entity;
 
 public enum EnumAmberClass {
-	CLASSI(5), CLASSII(7), CLASSIII(10), CLASSIV(15), CLASSV(20);
+	AMBER_CLASS_I(5), AMBER_CLASS_II(7), AMBER_CLASS_III(10), AMBER_CLASS_IV(15), AMBER_CLASS_V(20);
 	private int price;
 	
 	private EnumAmberClass(int price) {

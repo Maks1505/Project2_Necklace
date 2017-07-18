@@ -2,11 +2,17 @@ package com.bibik.project2.entity;
 
 import java.util.ArrayList;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class Necklace {
+	private final static Logger LOGGER = LogManager.getLogger();
 	private ArrayList<Decor> decorElements = new ArrayList<Decor>();
 
 	public void newDecorElement(Decor element) {
 		decorElements.add(element);
+		LOGGER.info("New decor element added: " + element.toString());
+		
 	}
 	
 	public ArrayList<Decor> getDecorElements() {

@@ -2,10 +2,9 @@ package com.bibik.project2.entity;
 
 public class PreciousGemstone extends Gemstone{
 	private EnumGemstone name;
-	private int clarity;
 	private double mass;
 	private boolean syntheticGem;
-	private int count = 1;
+	private static final double SYNTH_PRICE_COEFFICIENT = 0.3;
 
 
 	public PreciousGemstone(EnumGemstone gem, int clarity, double mass, boolean syntheticGem, int count) {
@@ -20,15 +19,11 @@ public class PreciousGemstone extends Gemstone{
 
 	@Override
 	public double calculateCost() {
-		return name.getPrice()*count*mass*(!syntheticGem ? 1 : 0.3);
+		return name.getPrice()*count*mass*(!syntheticGem ? 1 : SYNTH_PRICE_COEFFICIENT);
 	}
 	
 	public double calculateTotalMass() {
 		return mass*count;
-	}
-
-	public int getClarity() {
-		return clarity;
 	}
 
 
@@ -57,20 +52,16 @@ public class PreciousGemstone extends Gemstone{
 	}
 
 
-	public EnumGemstone getName() {
-		return name;
+	@Override
+	public String convertNameToString() {
+		return name.toString();
 	}
 
 
-	public int getCount() {
-		return count;
+	@Override
+	public String toString() {
+		return "PreciousGemstone [name=" + name + ", clarity=" + clarity + ", mass=" + mass + ", syntheticGem="
+				+ syntheticGem + ", count=" + count + "]";
 	}
 
-
-	public void setCount(int count) {
-		this.count = count;
-	}
-
-
-	
 }

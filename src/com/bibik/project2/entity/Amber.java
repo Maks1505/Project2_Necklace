@@ -3,8 +3,6 @@ package com.bibik.project2.entity;
 public class Amber extends Gemstone{
 	private EnumAmberClass amberClass;
 	private int age;
-	private int count = 1;
-	private static final String NAME="Amber";
 
 	public Amber(EnumAmberClass amberClass, int age, int count) {
 		super();
@@ -17,15 +15,6 @@ public class Amber extends Gemstone{
 		return age;
 	}
 
-	public int getCount() {
-		return count;
-	}
-
-	public void setCount(int count) {
-		this.count = count;
-	}
-
-	
 	public EnumAmberClass getAmberClass() {
 		return amberClass;
 	}
@@ -35,8 +24,14 @@ public class Amber extends Gemstone{
 		return amberClass.getPrice()*count;
 	}
 
-	public static String getName() {
-		return NAME;
+	@Override
+	public String convertNameToString() {
+		return amberClass.name();
+	}
+
+	@Override
+	public String toString() {
+		return "Amber [amberClass=" + amberClass + ", age=" + age + ", count=" + count + "]";
 	}
 	
 }

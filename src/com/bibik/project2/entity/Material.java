@@ -2,11 +2,11 @@ package com.bibik.project2.entity;
 
 public class Material extends Decor {
 	private EnumMaterial name;
-	private int count = 1;
 	
-	public Material(EnumMaterial name) {
+	public Material(EnumMaterial name, int count) {
 		super();
 		this.name = name;
+		this.count = count;
 	}
 	
 
@@ -15,16 +15,14 @@ public class Material extends Decor {
 		return name.getPrice()*count;
 	}
 	
-	public int getCount() {
-		return count;
+	@Override
+	public String convertNameToString() {
+		return name.toString();
 	}
 
-	public void setCount(int count) {
-		this.count = count;
+	@Override
+	public String toString() {
+		return "Material [name=" + name + ", count=" + count + "]";
 	}
-
-	public EnumMaterial getName() {
-		return name;
-	}
-
+	
 }
