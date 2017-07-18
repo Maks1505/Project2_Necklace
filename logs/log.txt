@@ -1,340 +1,130 @@
-2017-07-18 17:00:02 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:00:02 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:06:06 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:06:06 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:06:06 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 4; 0.5; false; 5;
-2017-07-18 17:06:06 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=4, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:06:06 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:06:06 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:06:06 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:06:06 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:06:06 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:06:06 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:06:23 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:06:23 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:06:23 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 4; 0.5; false; 5;
-2017-07-18 17:06:23 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=4, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:06:23 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:06:23 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:06:23 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:06:23 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:06:23 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:06:23 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:08:21 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:08:21 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:08:21 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 4; 0.5; false; 5;
-2017-07-18 17:08:21 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=4, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:08:21 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:08:21 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:08:21 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:08:21 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:08:21 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:08:21 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:08:21 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:08:21 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:12:02 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:12:02 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:12:02 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 4; 0.5; false; 5;
-2017-07-18 17:12:02 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=4, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:12:02 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:12:02 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:12:02 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:12:02 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:12:02 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:12:02 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:12:02 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:12:02 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:12:39 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:12:39 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:12:39 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 4; 0.5; false; 5;
-2017-07-18 17:12:39 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=4, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:12:39 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:12:39 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:12:39 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:12:39 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:12:39 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:12:39 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:12:39 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:12:39 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:12:55 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:12:55 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:12:55 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 4; 0.5; false; 5;
-2017-07-18 17:12:55 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=4, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:12:55 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:12:55 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:12:55 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:12:55 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:12:55 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:12:55 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:12:55 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:12:55 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:13:00 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:13:00 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:13:00 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 4; 0.5; false; 5;
-2017-07-18 17:13:00 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=4, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:13:00 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:13:00 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:13:00 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:13:00 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:13:00 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:13:00 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:13:00 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:13:00 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:13:07 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:13:07 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:13:07 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 4; 0.5; false; 5;
-2017-07-18 17:13:07 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=4, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:13:07 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:13:07 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:13:07 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:13:07 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:13:07 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:13:07 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:13:07 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:13:07 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:13:18 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:13:18 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:13:18 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 4; 0.5; false; 5;
-2017-07-18 17:13:18 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=4, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:13:18 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:13:18 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:13:18 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:13:18 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:13:18 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:13:18 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:13:18 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:13:18 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:13:28 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:13:28 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:13:28 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 4; 0.5; false; 5;
-2017-07-18 17:13:28 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=4, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:13:28 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:13:28 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:13:28 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:13:28 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:13:28 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:13:28 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:13:28 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:13:28 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:13:32 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:13:32 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:13:32 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 4; 0.5; false; 5;
-2017-07-18 17:13:32 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=4, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:13:32 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:13:32 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:13:32 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:13:32 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:13:32 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:13:32 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:13:32 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:13:32 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:14:30 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:14:30 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:14:30 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 4; 0.5; false; 5;
-2017-07-18 17:14:30 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=4, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:14:30 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:14:30 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:14:30 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:14:30 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:14:30 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:14:30 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:14:30 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:14:30 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:16:03 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:16:03 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:16:03 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 4; 0.5; false; 5;
-2017-07-18 17:16:03 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=4, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:16:03 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:16:03 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:16:03 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:16:03 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:16:03 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:16:03 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:16:03 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:16:03 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:17:05 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:17:05 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:17:05 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 4; 0.5; false; 5;
-2017-07-18 17:17:06 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=4, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:17:06 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:17:06 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:17:06 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:17:06 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:17:06 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:17:06 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:17:06 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:17:06 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:17:25 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:17:25 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:17:25 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 4; 0.5; false; 5;
-2017-07-18 17:17:25 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=4, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:17:25 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:17:25 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:17:25 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:17:25 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:17:25 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:17:25 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:17:25 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:17:25 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:17:36 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:17:36 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:17:36 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 4; 0.5; false; 5;
-2017-07-18 17:17:36 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=4, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:17:36 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:17:36 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:17:36 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:17:36 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:17:36 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:17:36 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:17:36 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:17:36 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:18:25 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:18:25 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:18:25 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 4; 0.5; false; 5;
-2017-07-18 17:18:25 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=4, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:18:25 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:18:25 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:18:25 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:18:25 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:18:25 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:18:25 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:18:25 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:18:25 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:19:17 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:19:17 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:19:17 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 4; 0.5; false; 5;
-2017-07-18 17:19:17 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=4, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:19:17 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:19:17 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:19:17 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:19:17 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:19:17 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:19:17 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:19:17 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:19:17 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:20:03 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:20:03 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:20:03 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
-2017-07-18 17:20:03 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:20:03 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:20:03 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:20:03 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:20:03 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:20:03 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:20:03 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:20:03 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:20:03 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:20:03 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 2; 1.5; true; 22;
-2017-07-18 17:20:03 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:20:26 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:20:26 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:20:26 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
-2017-07-18 17:20:26 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:20:26 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:20:26 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:20:26 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:20:26 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:20:26 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:20:26 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:20:26 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:20:26 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:20:26 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
-2017-07-18 17:20:26 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
-2017-07-18 17:21:24 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:21:24 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:21:24 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
-2017-07-18 17:21:24 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:21:24 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:21:24 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:21:24 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:21:24 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:21:24 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:21:24 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:21:24 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:21:24 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:21:24 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
-2017-07-18 17:21:24 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
-2017-07-18 17:21:38 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:21:38 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:21:38 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
-2017-07-18 17:21:38 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:21:38 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:21:38 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:21:38 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:21:38 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:21:38 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:21:38 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:21:38 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:21:38 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:21:38 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
-2017-07-18 17:21:38 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
-2017-07-18 17:21:43 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:21:43 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:21:43 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
-2017-07-18 17:21:43 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:21:43 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:21:43 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:21:43 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:21:43 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:21:43 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:21:43 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:21:43 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:21:43 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:21:43 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
-2017-07-18 17:21:43 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
-2017-07-18 17:21:48 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:21:48 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:21:48 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
-2017-07-18 17:21:48 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:21:48 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:21:48 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:21:48 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:21:48 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:21:48 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:21:48 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:21:48 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:21:48 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:21:48 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
-2017-07-18 17:21:48 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
-2017-07-18 17:29:07 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:29:07 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:29:07 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
-2017-07-18 17:29:07 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:29:07 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:29:07 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:29:07 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:29:07 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:29:07 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:29:07 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:29:07 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:29:07 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:29:07 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
-2017-07-18 17:29:07 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
-2017-07-18 17:31:21 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:31:21 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:31:21 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
-2017-07-18 17:31:21 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:31:21 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:31:21 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:31:21 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:31:21 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:31:21 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:31:21 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:31:21 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:31:21 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:31:21 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
-2017-07-18 17:31:21 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
-2017-07-18 17:34:48 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
-2017-07-18 17:34:48 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
-2017-07-18 17:34:48 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
-2017-07-18 17:34:48 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
-2017-07-18 17:34:48 [main] INFO  com.bibik.project2.runner.Runner - Validate line: MATERIAL; WOOD; 10;
-2017-07-18 17:34:48 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
-2017-07-18 17:34:48 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
-2017-07-18 17:34:48 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
-2017-07-18 17:34:48 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
-2017-07-18 17:34:48 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
-2017-07-18 17:34:48 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
-2017-07-18 17:34:48 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
-2017-07-18 17:34:48 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
-2017-07-18 17:34:48 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
+2017-07-18 17:43:21 [main] INFO  com.bibik.project2.runner.Runner - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
+2017-07-18 17:43:21 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
+2017-07-18 17:43:21 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
+2017-07-18 17:43:21 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
+2017-07-18 17:43:21 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
+2017-07-18 17:43:21 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
+2017-07-18 17:43:21 [main] INFO  com.bibik.project2.runner.Runner - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
+2017-07-18 17:43:21 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
+2017-07-18 18:26:08 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
+2017-07-18 18:26:08 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
+2017-07-18 18:26:08 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
+2017-07-18 18:26:08 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
+2017-07-18 18:26:08 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: MATERIAL; WOOD; 10;
+2017-07-18 18:26:08 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
+2017-07-18 18:26:08 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
+2017-07-18 18:26:08 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
+2017-07-18 18:26:08 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
+2017-07-18 18:26:08 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
+2017-07-18 18:26:08 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
+2017-07-18 18:26:08 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
+2017-07-18 18:26:08 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
+2017-07-18 18:26:08 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
+2017-07-18 18:40:02 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
+2017-07-18 18:40:02 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
+2017-07-18 18:40:02 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
+2017-07-18 18:40:02 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
+2017-07-18 18:40:02 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: MATERIAL; WOOD; 10;
+2017-07-18 18:40:02 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
+2017-07-18 18:40:02 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
+2017-07-18 18:40:02 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
+2017-07-18 18:40:02 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
+2017-07-18 18:40:02 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
+2017-07-18 18:40:02 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
+2017-07-18 18:40:02 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
+2017-07-18 18:40:02 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
+2017-07-18 18:40:02 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
+2017-07-18 18:40:03 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
+2017-07-18 18:40:03 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
+2017-07-18 18:40:03 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
+2017-07-18 18:40:03 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
+2017-07-18 18:47:56 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
+2017-07-18 18:47:56 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
+2017-07-18 18:47:56 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
+2017-07-18 18:47:56 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
+2017-07-18 18:47:56 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: MATERIAL; WOOD; 10;
+2017-07-18 18:47:56 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
+2017-07-18 18:47:56 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
+2017-07-18 18:47:56 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
+2017-07-18 18:47:56 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
+2017-07-18 18:47:56 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
+2017-07-18 18:47:56 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
+2017-07-18 18:47:56 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
+2017-07-18 18:47:56 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
+2017-07-18 18:47:56 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
+2017-07-18 18:47:56 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
+2017-07-18 18:47:56 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
+2017-07-18 18:47:56 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
+2017-07-18 18:47:56 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
+2017-07-18 18:49:37 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
+2017-07-18 18:49:37 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
+2017-07-18 18:49:37 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
+2017-07-18 18:49:37 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
+2017-07-18 18:49:37 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: MATERIAL; WOOD; 10;
+2017-07-18 18:49:37 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
+2017-07-18 18:49:37 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
+2017-07-18 18:49:37 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
+2017-07-18 18:49:37 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
+2017-07-18 18:49:37 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
+2017-07-18 18:49:37 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
+2017-07-18 18:49:37 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
+2017-07-18 18:49:37 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
+2017-07-18 18:49:37 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
+2017-07-18 18:49:37 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
+2017-07-18 18:49:37 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
+2017-07-18 18:49:37 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
+2017-07-18 18:49:37 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
+2017-07-18 18:53:03 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
+2017-07-18 18:53:03 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
+2017-07-18 18:53:03 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
+2017-07-18 18:53:03 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
+2017-07-18 18:53:03 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: MATERIAL; WOOD; 10;
+2017-07-18 18:53:03 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
+2017-07-18 18:53:03 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
+2017-07-18 18:53:03 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
+2017-07-18 18:53:03 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
+2017-07-18 18:53:03 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
+2017-07-18 18:53:03 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
+2017-07-18 18:53:03 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
+2017-07-18 18:53:03 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
+2017-07-18 18:53:03 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
+2017-07-18 18:53:03 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
+2017-07-18 18:53:03 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
+2017-07-18 18:53:03 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
+2017-07-18 18:53:03 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
+2017-07-18 18:53:54 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
+2017-07-18 18:53:54 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
+2017-07-18 18:53:54 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
+2017-07-18 18:53:54 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
+2017-07-18 18:53:54 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: MATERIAL; WOOD; 10;
+2017-07-18 18:53:54 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
+2017-07-18 18:53:54 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
+2017-07-18 18:53:54 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
+2017-07-18 18:53:54 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
+2017-07-18 18:53:54 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
+2017-07-18 18:53:54 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
+2017-07-18 18:53:54 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
+2017-07-18 18:53:54 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
+2017-07-18 18:53:54 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
+2017-07-18 18:53:54 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
+2017-07-18 18:53:54 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
+2017-07-18 18:53:54 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
+2017-07-18 18:53:54 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
+2017-07-18 18:54:32 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE1; RUBY; 5; 1.5; false; 22;
+2017-07-18 18:54:32 [main] WARN  com.bibik.project2.validation.DataValidation - Illegal decor type: PRECIOUS_GEMSTONE1
+2017-07-18 18:54:32 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
+2017-07-18 18:54:32 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
+2017-07-18 18:54:32 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: MATERIAL; WOOD; 10;
+2017-07-18 18:54:32 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Material [name=WOOD, count=10]
+2017-07-18 18:54:32 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: AMBER; AMBER_CLASS_IV; 40; 10;
+2017-07-18 18:54:32 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: Amber [amberClass=AMBER_CLASS_IV, age=40, count=10]
+2017-07-18 18:54:32 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PEARL; PEARL_CLASS_AA; 40.4;
+2017-07-18 18:54:32 [main] WARN  com.bibik.project2.validation.DataValidation - Pearl data is not valid.
+2017-07-18 18:54:32 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 5; 0.5; true; 5;
+2017-07-18 18:54:32 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=5, mass=0.5, syntheticGem=true, count=5]
+2017-07-18 18:54:32 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
+2017-07-18 18:54:32 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]
+2017-07-18 18:54:32 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; DIAMOND; 3; 0.5; false; 5;
+2017-07-18 18:54:32 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=DIAMOND, clarity=3, mass=0.5, syntheticGem=false, count=5]
+2017-07-18 18:54:32 [main] INFO  com.bibik.project2.entity.NecklaceBuilder - Validate line: PRECIOUS_GEMSTONE; RUBY; 2; 1.5; true; 22;
+2017-07-18 18:54:32 [main] INFO  com.bibik.project2.entity.Necklace - New decor element added: PreciousGemstone [name=RUBY, clarity=2, mass=1.5, syntheticGem=true, count=22]

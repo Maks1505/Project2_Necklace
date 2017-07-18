@@ -1,4 +1,4 @@
-package test.bibik.project2.main;
+package test.bibik.project2.action;
 
 import java.io.File;
 import java.util.ArrayList;
