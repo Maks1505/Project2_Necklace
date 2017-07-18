@@ -1,14 +1,12 @@
 package test.bibik.project2.action;
 
 import java.io.File;
-import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Test;
 
 import com.bibik.project2.action.NecklaceAction;
-import com.bibik.project2.entity.decor.Decor;
 import com.bibik.project2.entity.necklace.Necklace;
 import com.bibik.project2.entity.necklace.NecklaceBuilder;
 import com.bibik.project2.exception.FileReadException;
