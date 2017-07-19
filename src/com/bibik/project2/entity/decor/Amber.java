@@ -33,5 +33,31 @@ public class Amber extends Decor{
 	public String toString() {
 		return "Amber [amberClass=" + amberClass + ", age=" + age + ", count=" + count + "]";
 	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = super.hashCode();
+		result = prime * result + age;
+		result = prime * result + ((amberClass == null) ? 0 : amberClass.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (!super.equals(obj))
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Amber other = (Amber) obj;
+		if (age != other.age)
+			return false;
+		if (amberClass != other.amberClass)
+			return false;
+		return true;
+	}
+	
 	
 }

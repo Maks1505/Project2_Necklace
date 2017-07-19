@@ -29,5 +29,27 @@ public class Pearl extends Decor{
 		return "Pearl [pearlClass=" + pearlClass + ", count=" + count + "]";
 	}
 
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = super.hashCode();
+		result = prime * result + ((pearlClass == null) ? 0 : pearlClass.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (!super.equals(obj))
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Pearl other = (Pearl) obj;
+		if (pearlClass != other.pearlClass)
+			return false;
+		return true;
+	}
+
 	
 }
